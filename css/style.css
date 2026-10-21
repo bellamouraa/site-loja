@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+    font-size: 1rem;
+    background-color: #fdf6f9;
+    color: #3a2e3a;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    max-width: 90%;
+    margin: 1em auto;
+    padding-left: 1.5em;
+}
+
+table {
+    width: 90%;
+    max-width: 600px;
+    margin: 1.5em auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+td {
+    padding: 0.6em;
+    text-align: center;
+}
+
+#inicio {
+    border-bottom: 0.3rem solid #b46a9c;
+}
+
+#objetivos {
+    background-color: #fceef6;
+}
+
+.cabecalho {
+    background-color: #7a4b6d;
+    color: #ffffff;
+    padding: 1.5em 1em;
+    margin-bottom: 1em;
+}
+
+.cabecalho h1 {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.menu center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.8em;
+}
+
+.link-nav {
+    color: #520933;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.3em 0.7em;
+    border: 0.1rem solid transparent;
+    border-radius: 0.4rem;
+    transition: all 0.3s ease;
+}
+
+.link-nav:hover {
+    color: #520933;
+    background-color: #ffe6f5;
+    border: 0.1rem solid #ffe6f5;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #7a4b6d;
+}
+
+.apresentacao {
+    max-width: 90%;
+    margin: 0 auto 1.5em auto;
+    text-align: center;
+    font-size: 1.05rem;
+    font-weight: 400;
+    padding: 0 1em;
+}
+
+.conteudo-principal {
+    max-width: 90%;
+    width: 60rem;
+    margin: 0 auto;
+    background-color: #fceef6;
+    color: #3a2e3a;
+    padding: 1.5em;
+    border-radius: 0.6rem;
+}
+
+.card {
+    background-color: #ffffff;
+    margin: 1em 0;
+    padding: 1.2em;
+    border: 0.15rem solid #d9a9c9;
+    border-radius: 0.5rem;
+}
+
+.lista-skills {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.tabela-skills td {
+    border: 0.05rem solid #d9a9c9;
+}
+
+.tabela-skills tr:first-child {
+    background-color: #b46a9c;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.foto-perfil {
+    width: 12rem;
+    margin: 1.5em auto;
+    padding: 0.3em;
+    border: 0.2rem solid #b46a9c;
+    border-radius: 0.6rem;
+    display: block;
+}
+
+.foto-projeto {
+    width: 20rem;
+    max-width: 90%;
+    margin: 1em auto;
+    padding: 0.3em;
+    border: 0.2rem solid #b46a9c;
+    border-radius: 0.6rem;
+    display: block;
+}
+
+.rodape {
+    background-color: #7a4b6d;
+    color: #ffe6f5;
+    padding: 1.2em;
+    margin-top: 2em;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+    .cabecalho h1 {
+        font-size: 1.3rem;
+    }
+
+    .subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .foto-perfil {
+        width: 9rem;
+    }
+
+    .foto-projeto {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
